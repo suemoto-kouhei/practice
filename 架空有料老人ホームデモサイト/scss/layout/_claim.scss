@@ -1,0 +1,277 @@
+
+.claim-inner {
+  margin: 0 calc(50% - 50vw);
+  width: 100%;
+}
+
+.contact-title {
+  color: #000;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  margin-top: 70px;
+  @include overTab {
+    font-size: 4.5rem;
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+
+  .contact-title::before,
+  .contact-title::after {
+    display: inline-block;
+    content: "";
+    vertical-align: 12px;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+  }
+  .contact-title::before {
+    margin-right: 8px;
+  }
+  
+  .contact-title::after {
+    margin-left: 8px;
+  }
+  
+  .contact-kv {
+    margin-bottom: 500px;
+
+  }
+  
+  input:not(#agree), button, textarea, select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    #contact main header {
+      margin: 0 0 80px;
+    }
+    #contact main header .inner {
+      height: 100px;
+      background: url(images/header_bg.jpg) no-repeat center top;
+      background-size: contain;
+      background-attachment: fixed;
+      padding: 50px;
+      box-sizing: border-box;
+      max-width: 100%!important ;
+    }
+    
+    #contact main header h1 {
+      margin: 0 0 60px;
+      font-size: 1.4rem;
+      line-height: 1;
+      letter-spacing: 0.1em;
+      color: #fff;
+    }
+    
+    #contact main header h1 span {
+      display: block;
+      font-family: "Reenie Beanie", cursive;
+      font-size: 6rem;
+      letter-spacing: 0;
+    }
+    #contact form dl {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      @include overTab {
+        padding-left: calc(50% - 400px);
+      }
+    }
+
+    #contact form dt {
+      width: 100vw;
+      display: block;
+      font-size: 2rem;;
+      margin: 50px 0 0;
+      @include overTab {
+        width: 12em;
+      margin: 0 0 50px;
+      }
+    }
+    
+    #contact form dd {
+      display: block;
+      width: 100vw;
+      overflow: hidden;
+      margin: 0 0 10px;
+      @include overTab {
+        width: calc(100% - 12em);
+        margin: 0 0 50px;
+        position: relative;
+      }
+    }
+    #contact input[type="text"],
+    #contact input[type="tel"],
+    #contact input[type="email"],
+    #contact input[type="date"]
+    {
+      font-size: 1.8rem;
+      height: 40px;
+      width: 100vw!important;
+      border: 1px solid #c2c2c2;
+      
+      box-sizing: border-box;
+      @include overTab {
+        width: 400px!important;
+      }
+    }
+    
+    #contact input[type="radio"] {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid #c2c2c2;
+      vertical-align: -4px;
+      box-sizing: border-box;
+    }
+    
+    #contact input[type="radio"]:checked{
+      background: #c2c2c2;
+    }
+    
+    #contact form dd.pref-blk {
+      width: 400px;
+      margin: 0 430px 50px 0;
+      position: relative;
+      border: 1px solid #c2c2c2;
+      display: block;
+      box-sizing: border-box;
+    }
+    
+    #contact form dd.pref-blk::before {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      width: 0;
+      height: 0;
+      padding: 0;
+      content: "";
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #c2c2c2;
+      pointer-events: none;
+    }
+    
+    #contact form dd.pref-blk select {
+      width: 100%;
+      height: 40px;
+      cursor: pointer;
+      border: none;
+      box-shadow: none;
+      background: none;
+      color: #666;
+      font-size: 1.5rem;
+      box-sizing: border-box;
+    }
+    
+    #contact textarea {
+      font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic" , Sans-Serif !important;
+      font-size: 1.8rem;
+      width: 100vw !important;
+      height: 300px;
+      border: 1px solid #c2c2c2;
+      @include overTab {
+        width: 600px!important ;
+      }
+    }
+    #contact .notes span {
+      color: #f00;
+    }
+    
+    ::placeholder,.check-policy {
+      color: #3498db;
+    }
+    
+    .error {
+      position: absolute;
+      left: 0;
+      padding: 3px 3px 2px;
+      background-color: #f66;
+      border-radius: 5px;
+      font-size: 1.4rem;
+      color: #fff;
+      transform: translateY(-2.7em);
+      transition: all 1s;
+      opacity: 0;
+    }
+    
+    .error.active {
+      opacity: 1;
+    }
+    
+    .error::after {
+      content: ' ';
+      position: absolute;
+      top: 100%;
+      left: 15px;
+      border: 7px solid transparent;
+      border-top-color: #f66;
+      margin-left: 1px;
+    }
+  
+    .container {
+      text-align: center;
+      background: #a0b12c!important;
+      display: block;
+      width: 600px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+      padding: 10px;
+    }
+
+    .year {
+        background: red;
+        border: black;
+    }
+
+      input[type="date"] {
+        position: relative;
+        padding: 0 10px;
+        width: 100vw !important;
+        height: 36px;
+        border: 0;
+        background: transparent;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #999;
+        box-sizing: border-box;
+        @include overTab{
+          width: 200px !important;
+        }
+      }
+
+      .time::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        width: 36px;
+        height: 36px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        @include overTab {
+          right: -43px;
+        }
+      }
+
+      input[type="date"]::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+      }
+      input[type="date"]::-webkit-clear-button{
+        -webkit-appearance: none;
+      }
+
+      input[type="date"]::-webkit-calendar-picker-indicator{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        color: transparent;
+        cursor: pointer;
+      }

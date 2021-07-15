@@ -263,14 +263,14 @@ h2 span {
 
 #page-header .header-title::before {
   position: absolute;
-  content: url(/images/logo6.jpg);
+  content: url(https://github.com/suemoto-kouhei/practice/blob/main/images/logo6.jpg?raw=true);
   left: -50px;
   top: 5px;
 }
 
 @media print, screen and (min-width: 768px) {
   #page-header .header-title::before {
-    content: url(/images/logo2.jpg);
+    content: url(https://github.com/suemoto-kouhei/practice/blob/main/images/logo2.jpg?raw=true);
     top: 0px;
     left: 50px;
   }
@@ -417,7 +417,7 @@ h2 span {
 }
 
 #page-header .header-content .header-nav {
-  background: url(/images/kesiki.jpg);
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/kesiki.png?raw=true);
   background-position: bottom !important;
   background-size: cover !important;
   position: relative;
@@ -796,19 +796,19 @@ h2 span {
 
 /*　背景画像設定　*/
 .slider-item01 {
-  background: url(/images/kesiki.png) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/kesiki.png?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }
 
 .slider-item02 {
-  background: url(/images/robie2.jpg) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/robie2.jpg?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }
 
 .slider-item03 {
-  background: url(/images/heya.png) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/heya.png?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }
@@ -1478,7 +1478,7 @@ h1 {
 }
 
 .kv-inner {
-  background: url(/images/contact-kv.jpg);
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/contact-kv.jpg?raw=true);
   max-width: 100% !important;
   height: 700px;
   background-position: center !important;

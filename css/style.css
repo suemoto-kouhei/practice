@@ -796,19 +796,19 @@ h2 span {
 
 /*　背景画像設定　*/
 .slider-item01 {
-  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/kesiki.png?raw=true) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/kesiki2.png?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }
 
 .slider-item02 {
-  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/robie2.jpg?raw=true) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/robie2.png?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }
 
 .slider-item03 {
-  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/heya.png?raw=true) !important;
+  background: url(https://github.com/suemoto-kouhei/practice/blob/main/images/heya2.png?raw=true) !important;
   background-position: bottom !important;
   background-size: cover !important;
 }

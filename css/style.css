@@ -256,7 +256,7 @@ h2 span {
 
 @media print, screen and (min-width: 768px) {
   #page-header .header-text span {
-    left: 130px;
+    left: 140px;
     font-size: 4rem;
   }
 }

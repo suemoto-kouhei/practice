@@ -839,7 +839,7 @@ h2 span {
   position: absolute;
   /*絶対配置にする*/
   z-index: 3;
-  top: 50% !important;
+  top: 30%!important;
   cursor: pointer;
   /*マウスカーソルを指マークに*/
   outline: none;

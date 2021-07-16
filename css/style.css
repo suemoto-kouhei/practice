@@ -755,6 +755,7 @@ h2 span {
   font-size: 2.5rem;
   font-family: 'Noto Serif JP', serif;
   width: 95%;
+  color: #666666;
   padding: 0.25em 0.2em;/*上下 左右の余白*/
   background: transparent;/*背景透明に*/
   border-left: solid 5px #84c752;/*左線*/
@@ -772,7 +773,6 @@ h2 span {
     padding: 10px;
     font-size: 3rem;
     line-height: 4;
-    color: black;
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;

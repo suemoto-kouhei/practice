@@ -291,7 +291,7 @@ h2 span {
   font: inherit;
   outline: none;
   position: relative;
-  left: 69%;
+  left: 65%;
   top: -70px;
 }
 
@@ -354,7 +354,7 @@ h2 span {
 
 #page-header .hamburger p {
   position: absolute;
-  left: 68%;
+  left: 65%;
   top: -30px;
   font-weight: bold;
 }

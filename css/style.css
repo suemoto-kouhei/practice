@@ -755,6 +755,9 @@ h2 span {
   font-size: 2.5rem;
   font-family: 'Noto Serif JP', serif;
   width: 90%;
+  padding: 0.25em 0.2em;/*上下 左右の余白*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #84c752;/*左線*/
 }
 
 @media print, screen and (min-width: 768px) {

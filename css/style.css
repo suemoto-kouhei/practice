@@ -230,7 +230,7 @@ h2 span {
   font-size: 1.5rem;
   width: 100%;
   top: 60px;
-  left: 45px;
+  left: 65px;
   line-height: 1.5;
 }
 
@@ -264,7 +264,7 @@ h2 span {
 #page-header .header-title::before {
   position: absolute;
   content: url(https://github.com/suemoto-kouhei/practice/blob/main/images/logo6.jpg?raw=true);
-  left: -40px;
+  left: -55px;
   top: 5px;
 }
 

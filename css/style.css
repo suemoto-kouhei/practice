@@ -264,7 +264,7 @@ h2 span {
 #page-header .header-title::before {
   position: absolute;
   content: url(https://github.com/suemoto-kouhei/practice/blob/main/images/logo6.jpg?raw=true);
-  left: -40px;
+  left: -50px;
   top: 5px;
 }
 
